@@ -1,6 +1,6 @@
 # Festival Musical
 Link del proyecto: https://festivalmusical-luisjpr.netlify.app/
-##SASS
+## SASS
 Se le considera un estándar de la industria, compatible con muchos frameworks CSS.
 No es soportado nativamente por el navegador, por lo tanto deberá ser compilado a un archivo .css. Para compilarlo existen diferentes opciones siendo webpack y Gulp las más populares
 ## GULP
