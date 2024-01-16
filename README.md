@@ -61,3 +61,47 @@ Gulp utiliza JavaScript y **Pipes** (un pipe en gulp es una acción que se ejecu
 
 ##### Para instalar la dependencia de Terser con NPM, escribir en la terminal:
 - npm i gulp-terser-js
+
+#### USE SNIPPETS
+##### En visual estudio code (ctrl+shift+p)
+###### Media query CSS
+```
+"crea un mediaquery":{
+	"prefix": "mq",
+	"body": "@media (min-width: $1) {\n    $2\n}"
+}
+```
+###### Media query SCSS, mixins y variables
+```
+"media query": {
+	"prefix": "mq",
+	"body": [
+		"@include m.$1 {\n\t$2\n}"
+	]
+},
+"importar mixins": {
+	"prefix": "imm",
+	"body": [
+		"@use 'base/mixins' as m;"
+	]
+},
+"importar variables": {
+	"prefix": "imv",
+	"body": [
+		"@use 'base/variables' as v;"
+	]
+}
+```
+###### Etiqueta Picture HTML
+```
+"imagenes": {
+	"prefix": "im",
+	"body": [
+		"<picture>",
+			"\t<source srcset=\"$1.avif\" type=\"image/avif\">",
+			"\t<source srcset=\"$2.webp\" type=\"image/webp\">",
+			"\t<img loading=\"lazy\" width=\"200\" height=\"300\" src=\"$3.jpg\" alt=\"$4\">",
+		"</picture>"
+	]
+}
+```
