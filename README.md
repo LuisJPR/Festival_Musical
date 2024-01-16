@@ -1,4 +1,4 @@
-# Festival Musical
+# Festival_Musical
 Link del proyecto: https://festivalmusical-luisjpr.netlify.app/
 ## SASS
 Se le considera un estándar de la industria, compatible con muchos frameworks CSS.
