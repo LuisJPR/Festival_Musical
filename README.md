@@ -2,9 +2,9 @@
 Link del proyecto: https://festivalmusical-luisjpr.netlify.app/
 ## SASS
 Se le considera un estándar de la industria, compatible con muchos frameworks CSS.
-No es soportado nativamente por el navegador, por lo tanto deberá ser compilado a un archivo .css. Para compilarlo existen diferentes opciones siendo webpack y Gulp las más populares
+No es soportado nativamente por el navegador, por lo tanto deberá ser compilado a un archivo .css. Para compilarlo existen diferentes opciones siendo webpack y Gulp las más populares.
 ## GULP
-Te permite automatizar tareas que son repetitivas en Desarrollo Web tales como: compilar SASS y JavaScrip, crear imagenes más logeras o la versión webp, minificar y mejorar tu código para producción. Para utilizar Gulp se requiere Node.js y NPM.
+Te permite automatizar tareas que son repetitivas en Desarrollo Web tales como: compilar SASS y JavaScrip, crear imagenes más ligeras o la versión webp, minificar y mejorar tu código para producción. Para utilizar Gulp se requiere Node.js y NPM.
 Gulp utiliza JavaScript y Pipes (un pipe en gulp es una acción que se ejecuta, una ves finalizada se ejecuta otra y otra; el orden en que se ejecutan es definido por ese pipe)
 ### GUIA
 ##### Descargar e instalar Node.js
