@@ -63,7 +63,7 @@ Gulp utiliza JavaScript y **Pipes** (un pipe en gulp es una acción que se ejecu
 - npm i gulp-terser-js
 
 #### USE SNIPPETS
-##### En visual estudio code (ctrl+shift+p)
+##### En visual estudio code (ctrl+shift+p / Preferences: Configure User Snippets)
 ###### Media query CSS
 ```
 "crea un mediaquery":{
